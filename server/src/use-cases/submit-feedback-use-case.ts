@@ -40,6 +40,8 @@ export class SubmitFeedbackUseCase {
         `<div style="font-family: sans-serif; font-size: 16px; color: #111;">`,
         `<p>Tipo do Feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
+        `\n`,
+        screenshot ? `<img src='${screenshot}' alt='imagem'/>` : "",
         `</div>`,
       ].join("\n"),
     });
