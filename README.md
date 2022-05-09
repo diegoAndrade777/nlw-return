@@ -71,8 +71,6 @@ $ expo start
 
 # Expo will open, just scan the qrcode on terminal or expo page
 ```
-<img align="center" src="web/src/assets/images/mobile.gif" width="300px"></img>
-
 ## Licence
 
 [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
