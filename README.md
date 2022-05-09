@@ -3,7 +3,7 @@
 <h1 align="center">NLW Return</h1>
 <p align="center">Project <strong>Widget Feedback</strong> developed during the Rocketseat Next Level Week Return.
   <br/>
-  The project consists of teachers offering classes to students, in the most diverse disciplines. The student has information about the teacher's price, contact details and contracts for their services.
+  The project consists of the user will be able to send an application feedback to dev team.
 </p>
 
 <p align="center">
@@ -28,20 +28,13 @@ To install the dependencies and to execute the **Backend**, clone the project on
 $ cd server
 
 # Install dependencies
-$ yarn install
-
-# Run Migrates
-$ yarn knex:migrate
+$ npm install
 
 # Start server
-$ yarn start
+$ npm run dev
 
 # running on port 3333
 ```
-
-## Backend
-
-<img align="center" src="web/src/assets/images/backend.gif" width="600px"></img>
 
 ## Frontend
 
@@ -53,12 +46,12 @@ To run the React's Frontend use:
 $ cd web
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run
-$ yarn start
+$ npm run dev
 ```
-When the process end, automatically will open the page `localhost:3000` on your web browser with de Project Proffy.
+When the process end, automatically will open the page `localhost:3000` on your web browser with the project.
 
 ## Mobile
 
@@ -71,15 +64,13 @@ yarn global add install expo-cli
 $ cd mobile
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run
-$ yarn start
+$ expo start
 
 # Expo will open, just scan the qrcode on terminal or expo page
 ```
-<img align="center" src="web/src/assets/images/mobile.gif" width="300px"></img>
-
 ## Licence
 
 [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
